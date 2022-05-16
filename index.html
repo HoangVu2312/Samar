@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- owl carousel cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"/>
+
+    <!-- Thư viện animation-->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <!-- slick -->
+    <link rel="stylesheet" href="./slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="./slick-1.8.1/slick/slick-theme.css">
+
+
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- fontawesome -->
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Samar</title>
+</head>
+
+<body>                                            <!--Mỗi section nên chia làm 3 lớp div để dễ style-->
+
+    <!--------------Header---------------->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header-content">
+                <a href="#">
+                    <img src="images/logo-2.png" alt="logo">
+                </a>
+
+                <nav class="navbar">
+                    <ul>
+                        <li>
+                            <a href="#">
+                            <span>Home</span>
+                            <i class="fas fa-chevron-down"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                            <span>Pages</span>
+                            <i class="fas fa-chevron-down"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                            <span>Services</span>
+                            <i class="fas fa-chevron-down"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                            <span>Layout</span>
+                            <i class="fas fa-chevron-down"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                            <span>Blog</span>
+                            <i class="fas fa-chevron-down"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                            <span>Contact</span>
+                            <i class="fas fa-chevron-down"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <button type="button" class="btn-gradient">GET A QUOTE</button>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!--------------Carousel-------------->
+    <section class="carousel">
+        <div class="container">
+            <div class="carousel-content">
+                <div class="carou-left">
+                    <h4 class="wow animate__animated animate__fadeInUp ">We are The Best</h4>
+                    <h1 class="wow animate__animated animate__fadeInUp animate__delay-1s">Freelance Product Designer Running</h1>  <!--thêm cái delay 1s nữa-->
+                    <p class="wow animate__animated animate__fadeInUp animate__delay-2s">We develop the relationships that underpin the next phase in your
+                     organisation’s growth.</p>
+                     <span class="wow animate__animated animate__fadeInUp animate__delay-3s">
+                        <img src="icons/check.png" alt="icon">
+                        Master's degree in designing
+                    </span><br>
+                    <span class="wow animate__animated animate__fadeInUp animate__delay-3s">
+                        <img src="icons/check.png" alt="icon">
+                        Outstanding mobile design
+                    </span>
+                    <br><br>
+                    <button type="button" class="btn-gradient wow animate__animated animate__fadeInUp animate__delay-4s">GET STARTED</button>
+                </div>
+                    
+                <div class="carou-right">  <!--Bỏ animation class thẳng vào hình cũng được nhưng cho thêm một div để dễ kiểm soát và cách margin left-->
+                    <div class="wow carou-right-content animate__animated animate__fadeInUp animate__delay-4s">
+                        <img src="images/pic3_1.png" alt="pic" >
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-------------Service---------------->
+    <section class="service inner">
+        <div class="container">
+            <div class="service-content">
+                <div class="service-title">
+                    <h4>What we do best</h4>
+                    <h1>Our Digital Services</h1>
+                </div>
+
+                <div class="service-activities">
+                    <!-- item 1 -->
+                    <div class="service-item">
+                        <div class="service-item-inner">
+                            <img src="images/pic1_3.jpg" alt="pic">
+                            <h4>Web Development</h4>
+                            <p>Vestibulum a efficitur ex. Ut iaculis dapibus iaculis. Praesent lacus magna, rhoncus quis magna quis.</p>
+                        </div>
+                    </div>
+                    <!-- item 2 -->
+                    <div class="service-item">
+                        <div class="service-item-inner">
+                            <img src="images/pic2_2.jpg" alt="pic">
+                            <h4>Strategy & Research</h4>
+                            <p>Vestibulum a efficitur ex. Ut iaculis dapibus iaculis. Praesent lacus magna, rhoncus quis magna quis.</p>
+                        </div>
+                    </div>
+                    <!-- item 3 -->
+                    <div class="service-item">
+                        <div class="service-item-inner">
+                            <img src="images/pic3_2.jpg" alt="pic">
+                            <h4>Growth Tracking</h4>
+                            <p>Vestibulum a efficitur ex. Ut iaculis dapibus iaculis. Praesent lacus magna, rhoncus quis magna quis.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-------------Information------------>
+    <section class="info inner">
+        <div class="container">
+            <div class="info-content">
+                <div class="info-left wow animate__animated animate__fadeInLeft" data-wow-duration="2s" data-wow-delay="0.2s" >
+                    <img src="images/pic1.jpg" alt="pic" >
+                </div>
+                <div class="info-right wow animate__animated animate__fadeInRight" data-wow-duration="2s" data-wow-delay="0.2s">
+                    <h4>About Us</h4>
+                    <h1>Build Your<br> Business Website<br> Better</h1>
+                    <p>Proin laoreet leo vel enim gravida, at porttitor metus ultricies. Cras eu velit enim. Vivamus blandit, 
+                    dolor ut aliquet rutrum, ex elit mattis sapien, non molestie felis neque et nulla. Sed euismod turpis id 
+                    nibh suscipit semper. Pellentesque dapibus risus arcu.</p>
+                    <span>
+                        <img src="icons//check-mark.png" alt="icon">
+                        We support programs that create advancement opportunities for people.
+                    </span><br>
+                    <span>
+                        <img src="icons//check-mark.png" alt="icon">
+                        Get a view of events and trends. Be updated on our recent news.
+                    </span><br>
+                    <span>
+                        <img src="icons//check-mark.png" alt="icon">
+                        Finally, it all comes down to people. Creating a winning team.
+                    </span><br>
+                    <span>
+                        <img src="icons//check-mark.png" alt="icon">
+                        Get a view of events and trends. Be updated on our recent news.
+                    </span><br><br>
+                    <button type="button" class="btn-gradient">Learn More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-------------Number----------------->
+    <section class="number">
+        <div class="container">
+            <div class="number-content">
+                <!-- item 1 -->
+                <div class="number-item">
+                    <i><img src="icons/happiness.png" alt="icon"></i>
+                    <h1>18 ML</h1>
+                    <p>Satisfied Clients</p>
+                </div>
+                <!-- item 2 -->
+                <div class="number-item">
+                    <i><img src="icons/bar-chart.png" alt="icon"></i>
+                    <h1>18 ML</h1>
+                    <p>Satisfied Clients</p>
+                </div>
+                <!-- item 3 -->
+                <div class="number-item">
+                    <i><img src="icons/startup.png" alt="icon"></i>
+                    <h1>18 ML</h1>
+                    <p>Satisfied Clients</p>
+                </div>
+                <!-- item 4-->
+                <div class="number-item">
+                    <i><img src="icons/confetti.png" alt="icon"></i>
+                    <h1>18 ML</h1>
+                    <p>Satisfied Clients</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-------------Features--------------->
+    <section class="features inner">
+        <div class="container">
+            <div class="features-content">
+                <div class="feature-left">
+                    <div class="title wow animate__animated animate__backInLeft" data-wow-duration="2s" data-wow-delay="0.2s">
+                        <h4>Our Fuatures</h4>
+                        <h1>Behind The Story<br>
+                            Of Samar Agency</h1>
+                    </div>
+                    <main class="main">
+                        <!-- item 1 -->
+                        <div class="item item1 wow animate__animated animate__backInRight" data-wow-duration="2s" data-wow-delay="0.2s" >
+                            <div class="icon">
+                                <img src="icons/idea.png" alt="icon">
+                            </div>
+                            <div class="item-info">
+                                <h3>Idea & Analysis Gathering</h3>
+                                <p>Maecenas laoreet efficitur sagittis. Aliquam eleifend nisl leo, sit amet consequat augue.</p>
+                            </div>
+                        </div>
+                        <!-- item 2 -->
+                        <div class="item item2 wow animate__animated animate__backInRight"  data-wow-duration="2s" data-wow-delay="0.2s">
+                            <div class="icon">
+                                <img src="icons/monitor.png" alt="icon">
+                            </div>
+                            <div class="item-info">
+                                <h3>Design & Developing</h3>
+                                <p>Maecenas laoreet efficitur sagittis. Aliquam eleifend nisl leo, sit amet consequat augue.</p>
+                            </div>
+                        </div>
+                        <!-- item 3 -->
+                        <div class="item item3 wow animate__animated animate__backInRight" data-wow-duration="2s" >
+                            <div class="icon">
+                                <img src="icons/rocket.png" alt="icon">
+                            </div>
+                            <div class="item-info">
+                                <h3>Testing & Lunching</h3>
+                                <p>Maecenas laoreet efficitur sagittis. Aliquam eleifend nisl leo, sit amet consequat augue.</p>
+                            </div>
+                        </div>
+                    </main>
+                </div>
+                <div class="feature-right">
+                    <img src="images/pic3.png" alt="pic">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-------------Portfolio--------------->
+    <section class="portfolio inner">
+        <div class="container">
+            <div class="portfolio-content">
+                <div class="title">
+                    <h4>Portfolio</h4>
+                    <h1>Our Latest Work</h1>
+                </div>
+                <main class="main">
+                    <div class="row">
+                        <div class="item item1 wow animate__animated animate__fadeInUp">
+                            <img src="images/pic1_2.jpg" alt="pic">
+                            <div class="layover">
+                                <div class="layover-icon">
+                                    <span>+</span>
+                                </div>
+                                <div class="layover-title">
+                                    <h3>Software Landing</h3>
+                                    <p>By Hoang Vu</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="item item2 wow animate__animated animate__fadeInUp">
+                            <img src="images/pic2_1.jpg" alt="pic">
+                            <div class="layover">
+                                <div class="layover-icon">
+                                    <span>+</span>
+                                </div>
+                                <div class="layover-title">
+                                    <h3>Software Landing</h3>
+                                    <p>By Hoang Vu</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item item3 wow animate__animated animate__fadeInUp">
+                            <img src="images/pic3_1.jpg" alt="pic">
+                            <div class="layover">
+                                <div class="layover-icon">
+                                    <span>+</span>
+                                </div>
+                                <div class="layover-title">
+                                    <h3>Software Landing</h3>
+                                    <p>By Hoang Vu</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item item4 wow animate__animated animate__fadeInUp">
+                            <img src="images/pic4.jpg" alt="pic">
+                            <div class="layover">
+                                <div class="layover-icon">
+                                    <span>+</span>
+                                </div>
+                                <div class="layover-title">
+                                    <h3>Software Landing</h3>
+                                    <p>By Hoang Vu</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item item5 wow animate__animated animate__fadeInUp">
+                            <img src="images/pic5.jpg" alt="pic">
+                            <div class="layover">
+                                <div class="layover-icon">
+                                    <span>+</span>
+                                </div>
+                                <div class="layover-title">
+                                    <h3>Software Landing</h3>
+                                    <p>By Hoang Vu</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item item6 wow animate__animated animate__fadeInUp">
+                            <img src="images/pic6.jpg" alt="pic">
+                            <div class="layover">
+                                <div class="layover-icon">
+                                    <span>+</span>
+                                </div>
+                                <div class="layover-title">
+                                    <h3>Software Landing</h3>
+                                    <p>By Hoang Vu</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+            </div>
+        </div>
+    </section>
+
+    <!-------------Plan------------------->
+    <section class="plan inner">
+        <div class="container">
+            <div class="plan-content">
+                <div class="title">
+                    <h4>Choose Your Plan</h4>
+                    <h1>Plan Types</h1>
+                </div>
+
+                <main class="main">
+                    <!-- item 1 -->
+                    <div class="plan-item">
+                        <div class="item-pic">
+                            <h3>Basic Plan</h3>
+                            <img src="images/pic4_1.jpg" alt="pic">
+                            <p><span>49$</span>/month</p>
+                        </div>
+                        <hr>
+                        <div class="item-text">
+                            <img src="icons/check-mark.png" alt="pic">
+                            Graphic <br>
+                            <img src="icons/check-mark.png" alt="pic">
+                            Web Design<br>
+                            <img src="icons/check-mark.png" alt="pic">
+                            UI/UX<br>
+                            <img src="icons/check-mark.png" alt="pic">
+                            HTML/CSS<br>
+                            <img src="icons/check-mark.png" alt="pic">
+                            SEO Marketing<br>
+                            <img src="icons/check-mark.png" alt="pic">
+                            Business Analysis<br>
+                        </div>
+                        <button type="button" class="btn-gradient">START NOW</button>
+                    </div>
+                    <!-- item 2 -->
+                    <div class="plan-item">
+                        <div class="item-pic">
+                            <h3>Basic Plan</h3>
+                            <img src="images/pic5_1.jpg" alt="pic">
+                            <p><span>49$</span>/month</p>
+                        </div>
+                        <hr>
+                        <div class="item-text">
+                            <img src="icons/check-mark.png" alt="pic">
+                            Graphic Design<br>
+                            <img src="icons/check-mark.png" alt="pic">
+                            Web Design<br>
+                            <img src="icons/check-mark.png" alt="pic">
+                            UI/UX<br>
+                            <img src="icons/check-mark.png" alt="pic">
+                            HTML/CSS<br>
+                            <img src="icons/check-mark.png" alt="pic">
+                            SEO Marketing<br>
+                            <img src="icons/check-mark.png" alt="pic">
+                            Business Analysis<br>
+                        </div>
+                        <button type="button" class="btn-gradient">START NOW</button>
+                    </div>
+                    <!-- item 3 -->
+                    <div class="plan-item">
+                        <div class="item-pic">
+                            <h3>Basic Plan</h3>
+                            <img src="images/pic6_1.jpg" alt="pic">
+                            <p><span>49$</span>/month</p>
+                        </div>
+                        <hr>
+                        <div class="item-text">
+                            <img src="icons/check-mark.png" alt="pic">
+                            Graphic Design<br>
+                            <img src="icons/check-mark.png" alt="pic">
+                            Web Design<br>
+                            <img src="icons/check-mark.png" alt="pic">
+                            UI/UX<br>
+                            <img src="icons/check-mark.png" alt="pic">
+                            HTML/CSS<br>
+                            <img src="icons/check-mark.png" alt="pic">
+                            SEO Marketing<br>
+                            <img src="icons/check-mark.png" alt="pic">
+                            Business Analysis<br>
+                        </div>
+                        <div class="btn-center">
+                            <button type="button" class="btn-gradient">START NOW</button>
+                        </div>
+                    </div>
+                </main>
+            </div>
+        </div>
+    </section>
+
+    <!-------------Testimonial------------>
+    <section class="testimonial inner"></section>
+
+    <!-------------Blog OWL Carousel------------------->
+    <section class="blog inner">
+        <div class="container">
+            <div class="blog-content">
+                <div class="title">
+                    <h4>Our Blog</h4>
+                    <h1>Lastest News And Blog</h1>
+                </div>
+
+                 <!-- ko dùng được owl nên dùng slick thay thế -->
+                <main class="blog-main ">
+                    <!-- item 1 -->
+                    <div class="blog-item item">
+                        <div class="blog-pic">
+                            <img src="images/pic1_1.jpg" alt="pic">
+                            <span> 23 March 2022</span>
+                        </div>
+                        
+                        <div class="blog-text">
+                            <h3>Lorem ipsum dolor sit amet.</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, nobis iure quas hic officiis delectus.</p>
+                        </div>
+                        <div class="blog-cmt">
+                            <p>
+                                <img src="icons/user (1).png" alt="icon">
+                                by Hoang Vu
+                                <img src="icons/comment.png" alt="icon">
+                                COMMENT 15
+                            </p>
+                        </div>
+                    </div>
+                    <!-- item 2 -->
+                    <div class="blog-item item">
+                        <div class="blog-pic">
+                            <img src="images/pic2.jpg" alt="pic">
+                            <span> 23 March 2022</span>
+                        </div>
+                        
+                        <div class="blog-text">
+                            <h3>Lorem ipsum dolor sit amet.</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, nobis iure quas hic officiis delectus.</p>
+                        </div>
+                        <div class="blog-cmt">
+                            <p>
+                                <img src="icons/user (1).png" alt="icon">
+                                by Hoang Vu
+                                <img src="icons/comment.png" alt="icon">
+                                COMMENT 15
+                            </p>
+                        </div>
+                    </div>
+                    <!-- item 3 -->
+                    <div class="blog-item item">
+                        <div class="blog-pic">
+                            <img src="images/pic3.jpg" alt="pic">
+                            <span> 23 March 2022</span>
+                        </div>
+                        
+                        <div class="blog-text">
+                            <h3>Lorem ipsum dolor sit amet.</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, nobis iure quas hic officiis delectus.</p>
+                        </div>
+                        <div class="blog-cmt">
+                            <p>
+                                <img src="icons/user (1).png" alt="icon">
+                                by Hoang Vu
+                                <img src="icons/comment.png" alt="icon">
+                                COMMENT 15
+                            </p>
+                        </div>
+                    </div>
+                    <!-- item 3 -->
+                    <div class="blog-item item">
+                        <div class="blog-pic">
+                            <img src="images/pic3.jpg" alt="pic">
+                            <span> 23 March 2022</span>
+                        </div>
+                        
+                        <div class="blog-text">
+                            <h3>Lorem ipsum dolor sit amet.</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, nobis iure quas hic officiis delectus.</p>
+                        </div>
+                        <div class="blog-cmt">
+                            <p>
+                                <img src="icons/user (1).png" alt="icon">
+                                by Hoang Vu
+                                <img src="icons/comment.png" alt="icon">
+                                COMMENT 15
+                            </p>
+                        </div>
+                    </div>
+                    <!-- item 3 -->
+                    <div class="blog-item item">
+                        <div class="blog-pic">
+                            <img src="images/pic3.jpg" alt="pic">
+                            <span> 23 March 2022</span>
+                        </div>
+                        
+                        <div class="blog-text">
+                            <h3>Lorem ipsum dolor sit amet.</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, nobis iure quas hic officiis delectus.</p>
+                        </div>
+                        <div class="blog-cmt">
+                            <p>
+                                <img src="icons/user (1).png" alt="icon">
+                                by Hoang Vu
+                                <img src="icons/comment.png" alt="icon">
+                                COMMENT 15
+                            </p>
+                        </div>
+                    </div>
+                    <!-- item 3 -->
+                    <div class="blog-item item">
+                        <div class="blog-pic">
+                            <img src="images/pic3.jpg" alt="pic">
+                            <span> 23 March 2022</span>
+                        </div>
+                        
+                        <div class="blog-text">
+                            <h3>Lorem ipsum dolor sit amet.</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, nobis iure quas hic officiis delectus.</p>
+                        </div>
+                        <div class="blog-cmt">
+                            <p>
+                                <img src="icons/user (1).png" alt="icon">
+                                 by Hoang Vu
+                                <img src="icons/comment.png" alt="icon">
+                                COMMENT 15
+                            </p>
+                        </div>
+                    </div>
+                </main>
+            </div>
+        </div>
+    </section>
+
+    <!-------------Footer----------------->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="top wow animate__animated animate__fadeInUp">
+                    <div class="top-left">
+                        <h3>Subscribe To Our Newsletter</h3>
+                    </div>
+                    <div class="top-right">
+                        <input type="email" placeholder="Your Email Address">
+                        <button class="btn-gradient"><i class="fa-solid fa-circle-arrow-right"></i></button> 
+                    </div>
+                </div>
+                <div class="bottom wow animate__animated animate__fadeIn">
+                    <!-- item 1 -->
+                    <div class="item">
+                        <a  href="#home"><img src="images/logo-white.png" alt="pic"></a>
+                        <p>
+                            <img src="icons/call.png" alt="icon">
+                            <span>1800-123-4567</span><br>
+                        </p>
+                        <p>
+                            <img src="icons/envelope.png" alt="icon">
+                            <span>services@gmail.com</span>
+                        </p>
+                        <p>
+                            <img src="icons/maps-and-flags.png" alt="icon">
+                            <span>Road city</span>
+                        </p>
+                    </div>
+                    <!-- item 2 -->
+                    <div class="item">
+                        <h3>Our Links</h3>
+                        <ul>
+                        <li><a href="#home"><i class="fas fa-chevron-right"></i> </i>Home</a></li>
+                        <li><a href="#info"><i class="fas fa-chevron-right"></i> </i> About Us</a></li>
+                        <li><a href="#service"><i class="fas fa-chevron-right"></i> </i> Service</a></li>
+                        <li><a href="#team"><i class="fas fa-chevron-right"></i> </i> Team</a></li>
+                        <li><a href="#home"><i class="fas fa-chevron-right"></i> </i> Blog</a></li>
+                        </ul>
+                    </div>
+                    <!-- item 3 -->
+                    <div class="item">
+                        <h3>Our Services</h3>
+                        <ul>
+                        <li><a href="#home"><i class="fas fa-chevron-right"></i> </i> Home</a></li>
+                        <li><a href="#info"><i class="fas fa-chevron-right"></i> </i> About Us</a></li>
+                        <li><a href="#service"><i class="fas fa-chevron-right"></i> </i> Service</a></li>
+                        <li><a href="#team"><i class="fas fa-chevron-right"></i> </i> Team</a></li>
+                        <li><a href="#home"><i class="fas fa-chevron-right"></i> </i> Blog</a></li>
+                        </ul>
+                    </div>
+                    <!-- item 4 -->
+                    <div class="item">
+                        <h3>Other links</h3>
+                        <ul>
+                        <li><a href="#home"><i class="fas fa-chevron-right"></i> </i> Home</a></li>
+                        <li><a href="#info"><i class="fas fa-chevron-right"></i> </i> About Us</a></li>
+                        <li><a href="#service"><i class="fas fa-chevron-right"></i> </i> Service</a></li>
+                        <li><a href="#team"><i class="fas fa-chevron-right"></i> </i> Team</a></li>
+                        <li><a href="#home"><i class="fas fa-chevron-right"></i> </i> Blog</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <div class="left">
+                <p>Copyright © 2021 DexignZone . All rights reserved.</p>
+            </div>
+            <div class="right">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+            </div>
+        </div>
+        <button type="button" class="back" >
+           <a href="#header">
+               <img src="icons/up-arrow.png" alt="icon">
+           </i></a>
+        </button>
+    </footer>
+    
+    <!-- owl carousel demo -->
+    <!-- <div class=" owl-carousel owl-theme">
+        <div class="container">
+            <div class="item">
+                <div class="blog-pic">
+                    <img src="images/pic1_1.jpg" alt="pic">
+                    <span> 23 March 2022</span>
+                </div>
+                
+                <div class="blog-text">
+                    <h3>Lorem ipsum dolor sit amet.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, nobis iure quas hic officiis delectus.</p>
+                </div>
+                <div class="blog-cmt">
+                    <p>
+                        <i class="fa-solid fa-circle-user"></i>
+                        by Hoang Vu
+                        <i class="fa-solid fa-comment"></i>
+                        COMMENT 15
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="blog-pic">
+                    <img src="images/pic1_1.jpg" alt="pic">
+                    <span> 23 March 2022</span>
+                </div>
+                
+                <div class="blog-text">
+                    <h3>Lorem ipsum dolor sit amet.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, nobis iure quas hic officiis delectus.</p>
+                </div>
+                <div class="blog-cmt">
+                    <p>
+                        <i class="fa-solid fa-circle-user"></i>
+                        by Hoang Vu
+                        <i class="fa-solid fa-comment"></i>
+                        COMMENT 15
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="blog-pic">
+                    <img src="images/pic1_1.jpg" alt="pic">
+                    <span> 23 March 2022</span>
+                </div>
+                
+                <div class="blog-text">
+                    <h3>Lorem ipsum dolor sit amet.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, nobis iure quas hic officiis delectus.</p>
+                </div>
+                <div class="blog-cmt">
+                    <p>
+                        <i class="fa-solid fa-circle-user"></i>
+                        by Hoang Vu
+                        <i class="fa-solid fa-comment"></i>
+                        COMMENT 15
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="blog-pic">
+                    <img src="images/pic1_1.jpg" alt="pic">
+                    <span> 23 March 2022</span>
+                </div>
+                
+                <div class="blog-text">
+                    <h3>Lorem ipsum dolor sit amet.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, nobis iure quas hic officiis delectus.</p>
+                </div>
+                <div class="blog-cmt">
+                    <p>
+                        <i class="fa-solid fa-circle-user"></i>
+                        by Hoang Vu
+                        <i class="fa-solid fa-comment"></i>
+                        COMMENT 15
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="blog-pic">
+                    <img src="images/pic1_1.jpg" alt="pic">
+                    <span> 23 March 2022</span>
+                </div>
+                
+                <div class="blog-text">
+                    <h3>Lorem ipsum dolor sit amet.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, nobis iure quas hic officiis delectus.</p>
+                </div>
+                <div class="blog-cmt">
+                    <p>
+                        <i class="fa-solid fa-circle-user"></i>
+                        by Hoang Vu
+                        <i class="fa-solid fa-comment"></i>
+                        COMMENT 15
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="blog-pic">
+                    <img src="images/pic1_1.jpg" alt="pic">
+                    <span> 23 March 2022</span>
+                </div>
+                
+                <div class="blog-text">
+                    <h3>Lorem ipsum dolor sit amet.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, nobis iure quas hic officiis delectus.</p>
+                </div>
+                <div class="blog-cmt">
+                    <p>
+                        <i class="fa-solid fa-circle-user"></i>
+                        by Hoang Vu
+                        <i class="fa-solid fa-comment"></i>
+                        COMMENT 15
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+
+
+
+
+
+
+
+
+
+
+<!-- link tương đối tới file wowjs -->
+<script src="wowjs/dist/wow.min.js"></script>
+ <script>
+     new WOW().init();
+</script>
+
+
+
+<!-- jquery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- owl carousel javascript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+<script>
+    $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:false,
+    items:3,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:3
+        }
+    }
+})
+</script>
+
+<!-- slick set up -->
+<script src="./slick-1.8.1/slick/slick.min.js"></script>
+<script>
+    $(document).ready(function(){
+    $('.blog-main').slick({
+    // setting-name: setting-value
+    arrows: false,     // xóa nút prev and back
+    dots: false,        // Thêm mấy cái dots
+    infinite: true,    // Kéo hoài kéo mãi
+    slidesToShow: 3,
+    slidesToScroll: 3
+    
+    });
+    });
+</script>
+
+</body>
+</html>
+
+<!-- Câu hỏi cho mentor -->
+<!-- tại sao ko sài được fontawesome ?? -->
+<!-- tại sao ko sài được owl carousel ? -->
+<!-- làm sao để sử dụng flaticon dạng thẻ i mà ko cần down hình ảnh về -->
+<!-- animation phần navbar làm sao?? -->
